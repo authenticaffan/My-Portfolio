@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import sunIcon from 'public/assets/sun.svg';
-import moonIcon from 'public/assets/moon.svg';
+import sunIcon from '/assets/sun.svg';
+import moonIcon from '/assets/moon.svg';
 
 const ThemeToggle = () => {
   // Get the initial theme from localStorage or default to 'light'
