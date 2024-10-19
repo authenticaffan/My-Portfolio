@@ -1,7 +1,4 @@
 import Navbar from "../components/Navbar"
-import DevcolabImg from "src/assets/DevColab.png"
-import ECommerceImg from "src/assets/E-Commerce.png"
-import AISentimentImg from "src/assets/AI-Sentiment.png"
 
 const ProjectsPage = () => {
   return (
@@ -16,7 +13,7 @@ const ProjectsPage = () => {
 
     <div className="project-cards">
       <div className="card">
-        <img className="pImg" src={DevcolabImg} alt="DevColab" />
+        <img className="pImg" src="/assets/Devcolab.png" alt="DevColab" />
         <div className="pText rounded-lg">
         <h2 className="text-lg text-center mt-4">DevColab</h2>
         <p className="text-center" >A platform empowering developers to connect, collaborate, and innovate.
@@ -27,7 +24,7 @@ const ProjectsPage = () => {
       </div>
 
       <div className="card">
-        <img className="pImg rounded-lg" src={ECommerceImg} alt="E-Commerce" />
+        <img className="pImg rounded-lg" src="/assets/E-Commerce.png" alt="E-Commerce" />
         <div className="pText">
         <h2 className="text-lg text-center mt-4">E-COMMERCE SITE</h2>
         <p className="text-center" >Developed a robust e-commerce platform using MERN stack, Implemented
@@ -38,7 +35,7 @@ const ProjectsPage = () => {
       </div>
 
       <div className="card">
-        <img className="pImg rounded-lg" src={AISentimentImg} alt="AI-Sentiment" />
+        <img className="pImg rounded-lg" src="/assets/AI-Sentiment.png" alt="AI-Sentiment" />
         <div className="pText">
         <h2 className="text-lg text-center mt-4">AI - SENTIMENT ANALYSIS</h2>
         <p className="text-center" >AI - SENTIMENT ANALYSIS

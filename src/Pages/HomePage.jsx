@@ -1,9 +1,6 @@
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 import ThemeToggle from "../components/ThemeToggle"
-import DevcolabImg from "src/assets/DevColab.png"
-import ECommerceImg from "src/assets/E-Commerce.png"
-import ProfileImg from "src/assets/Profile-cropped.jpg"
 
 const HomePage = () => {
   return (
@@ -15,7 +12,7 @@ const HomePage = () => {
     <>
 
       <div className="banner pt-8 pb-6 mt-4">
-        <img src={ProfileImg} alt="Banner" className="bannerImg" />
+        <img src="/assets/Profile-cropped.jpg" alt="Banner" className="bannerImg" />
       </div>
 
       <div className="title-text mb-20">
@@ -66,7 +63,7 @@ const HomePage = () => {
       <h1 className="mt-4 text-xl font-bold">Projects</h1>
       <div className="project-cards">
       <div className="card">
-        <img className="pImg rounded-lg" src={DevcolabImg} alt="DevColab" />
+        <img className="pImg rounded-lg" src="/assets/Devcolab.png" alt="DevColab" />
         <div className="pText">
         <h2 className="text-lg text-center mt-4">DevColab</h2>
         <p className="text-center text-slate-500" >A platform empowering developers to connect, collaborate, and innovate.
@@ -77,7 +74,7 @@ const HomePage = () => {
       </div>
 
       <div className="card">
-        <img className="pImg rounded-lg" src={ECommerceImg} alt="DevColab" />
+        <img className="pImg rounded-lg" src="/assets/E-Commerce.png" alt="DevColab" />
         <div className="pText">
         <h2 className="text-lg text-center mt-4">E-COMMERCE SITE</h2>
         <p className="text-center text-slate-500" >Developed a robust e-commerce platform using MERN stack, Implemented
