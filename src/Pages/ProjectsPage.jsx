@@ -1,3 +1,4 @@
+import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
 
 const ProjectsPage = () => {
@@ -8,7 +9,7 @@ const ProjectsPage = () => {
     </div>
 
     <div>
-    <h1 className="text-xl text-center ">Projects</h1>
+    <h1 className="text-xl text-center mt-4 ">Projects</h1>
     </div>
 
     <div className="project-cards">
@@ -48,6 +49,8 @@ const ProjectsPage = () => {
         </div>
       </div>
     </div>
+
+    <Footer />
 
     </>
   )
