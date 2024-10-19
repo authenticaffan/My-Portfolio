@@ -1,7 +1,9 @@
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 import ThemeToggle from "../components/ThemeToggle"
-import DevcolabImg from "../assets/DevColab.jpg"
+import DevcolabImg from "../assets/DevColab.png"
+import ECommerceImg from "../assets/E-Commerce.png"
+import ProfileImg from "../assets/Profile-cropped.jpg"
 
 const HomePage = () => {
   return (
@@ -13,7 +15,7 @@ const HomePage = () => {
     <>
 
       <div className="banner pt-8 pb-6 mt-4">
-        <img src="src/assets/Profile-cropped.jpg" alt="Banner" className="bannerImg" />
+        <img src={ProfileImg} alt="Banner" className="bannerImg" />
       </div>
 
       <div className="title-text mb-20">
@@ -75,7 +77,7 @@ const HomePage = () => {
       </div>
 
       <div className="card">
-        <img className="pImg rounded-lg" src="src/assets/E-Commerce.png" alt="DevColab" />
+        <img className="pImg rounded-lg" src={ECommerceImg} alt="DevColab" />
         <div className="pText">
         <h2 className="text-lg text-center mt-4">E-COMMERCE SITE</h2>
         <p className="text-center text-slate-500" >Developed a robust e-commerce platform using MERN stack, Implemented
