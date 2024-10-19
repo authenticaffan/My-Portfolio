@@ -6,7 +6,9 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['/src/assets/sun.svg']
+      external: ['/src/assets/sun.svg',
+        'src/assets/moon.svg'
+      ]
     }
   }
 })
