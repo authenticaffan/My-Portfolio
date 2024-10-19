@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 import ThemeToggle from "../components/ThemeToggle"
+import DevcolabImg from "../assets/DevColab.jpg"
 
 const HomePage = () => {
   return (
@@ -63,7 +64,7 @@ const HomePage = () => {
       <h1 className="mt-4 text-xl font-bold">Projects</h1>
       <div className="project-cards">
       <div className="card">
-        <img className="pImg rounded-lg" src="src/assets/Devcolab.png" alt="DevColab" />
+        <img className="pImg rounded-lg" src={DevcolabImg} alt="DevColab" />
         <div className="pText">
         <h2 className="text-lg text-center mt-4">DevColab</h2>
         <p className="text-center text-slate-500" >A platform empowering developers to connect, collaborate, and innovate.
