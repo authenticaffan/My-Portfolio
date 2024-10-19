@@ -1,9 +1,9 @@
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 import ThemeToggle from "../components/ThemeToggle"
-import DevcolabImg from "../assets/DevColab.png"
-import ECommerceImg from "../assets/E-Commerce.png"
-import ProfileImg from "../assets/Profile-cropped.jpg"
+import DevcolabImg from "src/assets/DevColab.png"
+import ECommerceImg from "src/assets/E-Commerce.png"
+import ProfileImg from "src/assets/Profile-cropped.jpg"
 
 const HomePage = () => {
   return (

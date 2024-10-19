@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar"
-import DevcolabImg from "../assets/DevColab.png"
-import ECommerceImg from "../assets/E-Commerce.png"
-import AISentimentImg from "../assets/AI-Sentiment.png"
+import DevcolabImg from "src/assets/DevColab.png"
+import ECommerceImg from "src/assets/E-Commerce.png"
+import AISentimentImg from "src/assets/AI-Sentiment.png"
 
 const ProjectsPage = () => {
   return (
