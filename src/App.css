@@ -1,4 +1,4 @@
-@media (max-width:480px){
+@media (max-width: 2560px){
   .nav{
     position: fixed;
     bottom: 0;
@@ -15,7 +15,6 @@
   .banner{
     display: flex;
     flex-direction: column;
-    width: 100vw;
     
   }
   .bannerImg{
@@ -27,9 +26,6 @@
     display: flex;
     justify-content: flex-start;
   }
-  .title-text{
-    margin-left: 30px;
-  }
   .social{
     display: flex;
     justify-content: center;
@@ -39,7 +35,7 @@
     gap: 2rem;
   }
   .project-cards{
-    width: 300px;
+    max-width: 800px;
     margin: 0 auto;
     margin-top: 25px;
     display: flex;
@@ -57,7 +53,7 @@
     align-items: center;
   }
   .pText{
-    width: 300px;
+    max-width: 800px;
   }
   .foot ul{
     list-style-type: none;
@@ -68,6 +64,9 @@
     margin-top: 40px;
     margin-bottom: 100px;
    
+  }
+  .aboutsec{
+    max-width: 800px;
   }
   .aboutImg{
     margin: 0 auto;
@@ -97,7 +96,7 @@
     margin-bottom: 20px;
   }
   
-  h2 {
+  section h2 {
     border-bottom: 2px solid #ddd;
     padding-bottom: 5px;
     margin-bottom: 10px;
