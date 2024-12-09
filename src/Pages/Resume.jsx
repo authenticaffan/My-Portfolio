@@ -25,8 +25,8 @@ const Resume = () => {
         </div><br />
         <div>
           <h3>KH Matric Boys Hr. Sec. School</h3>
-          <p>HSC (Grade: 86) - May 2021</p>
-          <p>SSLC (Grade: 86) - May 2019</p>
+          <p>HSC (Grade: 86%) - May 2021</p>
+          <p>SSLC (Grade: 77%) - May 2019</p>
         </div>
       </section>
 
