@@ -17,8 +17,8 @@ const HomePage = () => {
 
       <div className="title-text text-center mx-8">
         <p className="font-aspekta mb-2 text-xl">Hi, I&apos;m <span className=" text-sky-500 after:bg-sky-500 ">Mohamed Affan</span></p>
-        <h1 className="h1 font-aspekta mb-2">I am Embarking on a <span className="inline-flex relative text-green-600 before:absolute before:inset-0 before:bg-green-200 dark:before:bg-green-500 before:opacity-10 before:-z-10 before:-rotate-1 before:translate-y-1/4">Full-Stack Developer</span> journey.</h1>
-        <p className="text-lg text-slate-500 dark:text-slate-400"> MERN | Problem Solver | Eager to Explore Realms of AI & ML | CSE&apos;25</p>
+        <h1 className="h1 font-aspekta mb-2">I am Embarking on a <span className="inline-flex relative text-green-600 before:absolute before:inset-0 before:bg-green-200 dark:before:bg-green-500 before:opacity-10 before:-z-10 before:-rotate-1 before:translate-y-1/4">Software Developer</span> journey.</h1>
+        <p className="text-lg text-slate-500 dark:text-slate-400"> Software Developer | Cloud & DevOps Enthusiast | Open to Opportunities | Computer Science &apos;25</p>
       </div>
 
       <div className="social">
@@ -52,7 +52,7 @@ const HomePage = () => {
       <div className="flex justify-center mt-20">
       <div className="aboutsec  text-center mx-8">
         <h1 className="text-xl font-bold">About Me</h1>
-        <p className="mt-4 text-slate-500"> I&apos;m a final-year Computer Science Engineering student with a passion for full stack development, especially the MERN stack (MongoDB, Express.js, React.js, Node.js). Over the course of my studies, I’ve built a solid understanding of HTML, CSS, and JavaScript, which has allowed me to create user-friendly, dynamic web applications. I enjoy the challenge of turning ideas into real, functional solutions.</p>
+        <p className="mt-4 text-slate-500"> I&apos;m  a Computer Science Engineering student (CSE &apos;25) with a passion for software development, problem-solving, and scalable applications. Skilled in Python, JavaScript, and SQL, I am eager to apply my knowledge to real-world projects and contribute to innovative solutions.</p>
         <button className="bg-slate-600 pl-6 pr-6 pt-2 pb-2 mt-4 rounded-xl text-white"><a href="/about">More</a></button>
       </div>
       </div>
@@ -63,10 +63,13 @@ const HomePage = () => {
       <div className="card">
         <img className="pImg rounded-lg" src="/assets/Devcolab.png" alt="DevColab" />
         <div className="pText text-center mx-4 mt-8 ">
-        <h2 className="text-lg mb-4">DevColab</h2>
-        <p className="text-slate-500 ">A platform empowering developers to connect, collaborate, and innovate.
-        Facilitated networking, trend discovery, and content sharing. Built using
-        React.js, Express.js, and MongoDB.
+        <h2 className="text-lg mb-4">Distributed Online Examination System</h2>
+        <p className="text-slate-500 ">
+        Engineered a scalable online examination system using the MERN stack, handling 100+ concurrent
+        users.
+        Implemented role-based access control (RBAC) for secure student and administrator management,
+        reducing unauthorized access by 95% and Optimized MongoDB queries, improving database response.
+        Integrated automated evaluation and real-time monitoring, improving exam grading efficiency by 70%.
         </p>
         </div>
       </div>
@@ -74,10 +77,13 @@ const HomePage = () => {
       <div className="card">
         <img className="pImg rounded-lg" src="/assets/E-Commerce.png" alt="DevColab" />
         <div className="pText text-center mb-4">
-        <h2 className="text-lg  mx-4 mt-4 mb-4">E-COMMERCE SITE</h2>
-        <p className="text-slate-500 mx-4" >Developed a robust e-commerce platform using MERN stack, Implemented
-        responsive design for seamless use across devices, Enhanced site
-        performance through efficient database management and API integration.
+        <h2 className="text-lg  mx-4 mt-4 mb-4">E-Commerce Web Application</h2>
+        <p className="text-slate-500 mx-4" >
+        Crafted a fully functional e-commerce platform with user authentication, product management, and a
+        secure checkout process.
+        Built RESTful APIs for efficient product management, user authentication, and order processing, reducing
+        API response time by 30%.
+        Upgraded platform functionality and performance to ensure a seamless user experience across the devices. 
         </p>
         </div>
       </div>
