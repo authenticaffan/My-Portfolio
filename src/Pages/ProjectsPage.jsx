@@ -16,44 +16,39 @@ const ProjectsPage = () => {
     </div>
 
     <div className="projectPage ">
-      <div className="card">
-        <img className="pImg rounded-lg " src="/assets/Devcolab.png" alt="DevColab" />
-        <div className="pText text-center mx-4 mt-8 mb-8">
-        <h2 className="text-lg mb-4">DevColab</h2>
-        <p className="">A platform empowering developers to connect, collaborate, and innovate.
-        Facilitated networking, trend discovery, and content sharing. Built using
-        React.js, Express.js, and MongoDB.
+    <div className="card">
+        <img className="pImg rounded-lg" src="/assets/DOES.avif" alt="DOES" />
+        <div className="pText text-center mx-4 mt-8 mb-16 ">
+        <h2 className="text-lg mb-4">Distributed Online Examination System</h2>
+        <p>
+        • Engineered a scalable online examination system using the LAMP stack, handling 100+ concurrent
+        users.
+        <br />• Implemented role-based access control (RBAC) for secure student, teacher and administrator
+        management, reducing unauthorized access and Optimized MySQL queries, improving database
+        response. 
+        • Integrated automated evaluation and real-time monitoring, improving exam grading efficiency.
+        <br />• Deployed on Hostinger with a live domain, configuring Apache, DNS settings, and SSL for secure global
+        access.
         </p>
-        <a href="https://github.com/authenticaffan/DevColab"><button className="bg-slate-600 text-white p-2 mt-4 rounded-xl">Click here</button></a>
+        <a href="https://github.com/authenticaffan/Online-Examination-System.git"><button className="bg-slate-600 text-white p-2 mt-4 rounded-xl">Click here</button></a>
         </div>
       </div>
 
       <div className="card">
-        <img className="pImg rounded-lg" src="/assets/E-Commerce.png" alt="E-Commerce" />
-        <div className="pText text-center mx-4 mt-8 mb-8">
-        <h2 className="text-lg mb-4">E-COMMERCE SITE</h2>
-        <p className="" >Developed a robust e-commerce platform using MERN stack, Implemented
-        responsive design for seamless use across devices, Enhanced site
-        performance through efficient database management and API integration.
+        <img className="pImg rounded-lg" src="/assets/vpc.jpg" alt="VPC" />
+        <div className="pText text-center mb-16">
+        <h2 className="text-lg  mx-4 mt-4 mb-4">VPC with servers in private subnets and NAT</h2>
+        <p className=" mx-4" >
+        • Designed a production-ready VPC architecture with isolated public/private subnets for a web app.
+        <br />• Deployed EC2 instances behind NAT Gateway, ensuring private subnet security while allowing outbound
+        traffic.
+        <br />• Configured route tables, security groups, and Elastic IPs, enabling secure, scalable access to cloud
+services. 
         </p>
-        <a href="https://github.com/authenticaffan/Ecommerce"><button className="bg-slate-600 text-white p-2 mt-4 rounded-xl">Click here</button></a>
         </div>
       </div>
 
-      <div className="card">
-        <img className="pImg rounded-lg" src="/assets/AI-Sentiment.png" alt="AI-Sentiment" />
-        <div className="pText text-center mx-4 mt-8 mb-8">
-        <h2 className="text-lg mb-4">AI - SENTIMENT ANALYSIS</h2>
-        <p className=" " >AI - SENTIMENT ANALYSIS
-        Developed an AI-based sentiment analysis system using facial analysis to
-        discern users sentiments, providing valuable insights for personalized
-        interactions and enhancing user experiences. Implemented machine learning
-        algorithms such as convolutional neural networks (CNNs), support vector
-        machines (SVMs), etc. for accurate emotion detection and analysis.
-        </p>
-        <a href="https://github.com/authenticaffan/sentiment-analysis"><button className="bg-slate-600 text-white p-2 mt-4 rounded-xl">Click here</button></a>
-        </div>
-      </div>
+      
 
       <div className="card">
         <img className="pImg rounded-lg" src="/assets/Image-Generator.png" alt="AI" />

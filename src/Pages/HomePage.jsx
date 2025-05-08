@@ -17,8 +17,8 @@ const HomePage = () => {
 
       <div className="title-text text-center mx-8">
         <p className="font-aspekta mb-2 text-xl">Hi, I&apos;m <span className=" text-sky-500 after:bg-sky-500 ">Mohamed Affan</span></p>
-        <h1 className="h1 font-aspekta mb-2">I am Embarking on a <span className="inline-flex relative text-green-600 before:absolute before:inset-0 before:bg-green-200 dark:before:bg-green-500 before:opacity-10 before:-z-10 before:-rotate-1 before:translate-y-1/4">Software Developer</span> journey.</h1>
-        <p className="text-lg text-slate-500 dark:text-slate-400"> Software Developer | Cloud & DevOps Enthusiast | Open to Opportunities | Computer Science &apos;25</p>
+        <h1 className="h1 font-aspekta mb-2"><span className="inline-flex relative text-green-600 before:absolute before:inset-0 before:bg-green-200 dark:before:bg-green-500 before:opacity-10 before:-z-10 before:-rotate-1 before:translate-y-1/4">Cloud/Devops</span> Engineer.</h1>
+        <p className="text-lg text-slate-500 dark:text-slate-400">Cloud & DevOps Enthusiast | Open to Opportunities | Computer Science &apos;25</p>
       </div>
 
       <div className="social">
@@ -52,7 +52,9 @@ const HomePage = () => {
       <div className="flex justify-center mt-20">
       <div className="aboutsec  text-center mx-8">
         <h1 className="text-xl font-bold">About Me</h1>
-        <p className="mt-4 text-slate-500"> I&apos;m  a Computer Science Engineering student (CSE &apos;25) with a passion for software development, problem-solving, and scalable applications. Skilled in Python, JavaScript, and SQL, I am eager to apply my knowledge to real-world projects and contribute to innovative solutions.</p>
+        <p className="mt-4 text-slate-500"> I’m a passionate and motivated DevOps and Cloud enthusiast currently focused on building my skills in cloud computing, infrastructure automation, and CI/CD pipelines. As a fresher, I'm actively learning tools and technologies like AWS, Docker, Kubernetes, Terraform, and Linux, with the goal of becoming a skilled DevOps Engineer.
+
+I enjoy understanding how systems work behind the scenes, and I'm eager to contribute to real-world projects where I can apply my knowledge of automation, cloud services, and deployment strategies.</p>
         <button className="bg-slate-600 pl-6 pr-6 pt-2 pb-2 mt-4 rounded-xl text-white"><a href="/about">More</a></button>
       </div>
       </div>
@@ -61,29 +63,32 @@ const HomePage = () => {
       <h1 className="mt-4 mb-4 text-xl text-center font-bold">Projects</h1>
       <div className="project-cards">
       <div className="card">
-        <img className="pImg rounded-lg" src="/assets/Devcolab.png" alt="DevColab" />
+        <img className="pImg rounded-lg" src="/assets/DOES.avif" alt="DOES" />
         <div className="pText text-center mx-4 mt-8 ">
         <h2 className="text-lg mb-4">Distributed Online Examination System</h2>
-        <p className="text-slate-500 ">
-        Engineered a scalable online examination system using the MERN stack, handling 100+ concurrent
+        <p className="text-slate-500">
+        • Engineered a scalable online examination system using the LAMP stack, handling 100+ concurrent
         users.
-        Implemented role-based access control (RBAC) for secure student and administrator management,
-        reducing unauthorized access by 95% and Optimized MongoDB queries, improving database response.
-        Integrated automated evaluation and real-time monitoring, improving exam grading efficiency by 70%.
+        <br />• Implemented role-based access control (RBAC) for secure student, teacher and administrator
+        management, reducing unauthorized access and Optimized MySQL queries, improving database
+        response. 
+        • Integrated automated evaluation and real-time monitoring, improving exam grading efficiency.
+        <br />• Deployed on Hostinger with a live domain, configuring Apache, DNS settings, and SSL for secure global
+        access.
         </p>
         </div>
       </div>
 
       <div className="card">
-        <img className="pImg rounded-lg" src="/assets/E-Commerce.png" alt="DevColab" />
+        <img className="pImg rounded-lg" src="/assets/vpc.jpg" alt="VPC" />
         <div className="pText text-center mb-4">
-        <h2 className="text-lg  mx-4 mt-4 mb-4">E-Commerce Web Application</h2>
+        <h2 className="text-lg  mx-4 mt-4 mb-4">VPC with servers in private subnets and NAT</h2>
         <p className="text-slate-500 mx-4" >
-        Crafted a fully functional e-commerce platform with user authentication, product management, and a
-        secure checkout process.
-        Built RESTful APIs for efficient product management, user authentication, and order processing, reducing
-        API response time by 30%.
-        Upgraded platform functionality and performance to ensure a seamless user experience across the devices. 
+        • Designed a production-ready VPC architecture with isolated public/private subnets for a web app.
+        <br />• Deployed EC2 instances behind NAT Gateway, ensuring private subnet security while allowing outbound
+        traffic.
+        <br />• Configured route tables, security groups, and Elastic IPs, enabling secure, scalable access to cloud
+services. 
         </p>
         </div>
       </div>
